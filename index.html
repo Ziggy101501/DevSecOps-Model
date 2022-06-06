@@ -18,11 +18,17 @@
     <script type="text/javascript" src="app.js"></script>
     
     <!-- START CSS Changes -->
+
         <style type="text/css">
          .x-mask-msg-text {
-            padding-top: 80px;
+            text-align: center;
             background-image: url(images/loader.png) !important;
-            width: 378px;
+            background-position: center;
+            width: 578px;
+            height: 150px;
+            background-color: #ffffff;
+            border: 3px #000000;
+            color: #ffffff; 
             }
         .x-viewport, .x-viewport body{
     		padding-bottom: 75px !important;
@@ -84,6 +90,17 @@
             display: none;
         }
 
+        #CMU_LOGO_head{
+                display: block;
+                width: 260px;
+                height:70px;
+                position:relative;
+                top: 0;
+                left: 0;
+                z-index: 1;
+
+            }
+
         #footer{
             position:absolute;
             width: 100%;
@@ -111,6 +128,9 @@
 </head>
 <body></body>
     <!-- START Added the footer  -->
+<a href="https://www.sei.cmu.edu/">
+    <div id = "CMU_LOGO_head"></div>
+</a>
 <div id = "footer">
     <div id ="footer-cmu">
         <p><b><a href="https://www.cmu.edu/">Carnegie Mellon University</a></br>
